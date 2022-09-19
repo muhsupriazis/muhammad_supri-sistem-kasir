@@ -1,0 +1,2 @@
+READ and WRITE nama_barang
+READ and WRITE jumlah_barang
