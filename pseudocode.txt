@@ -1,2 +1,14 @@
-READ and WRITE nama_barang
-READ and WRITE jumlah_barang
+REPEAT
+
+    READ and WRITE nama_barang
+    READ and WRITE jumlah_barang
+
+    IF nama_barang == 'snack THEN 
+        harga = 5000
+    ELSE IF nama_barang == 'minuman' THEN
+        harga = 10000
+    ELSE IF nama_barang == 'makanan' THEN
+        harga = 15000
+    ELSE harga = 0
+
+UNTIL harga != 0
