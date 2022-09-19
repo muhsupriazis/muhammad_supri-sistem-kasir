@@ -9,6 +9,10 @@ REPEAT
         harga = 10000
     ELSE IF nama_barang == 'makanan' THEN
         harga = 15000
-    ELSE harga = 0
+    ELSE 
+        PRINT 'Barang tidak ditemukan'
+        harga = 0
 
 UNTIL harga != 0
+
+READ and WRITE total = jumlah_barang * harga
