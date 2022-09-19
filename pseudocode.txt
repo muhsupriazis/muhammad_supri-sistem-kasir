@@ -16,3 +16,5 @@ REPEAT
 UNTIL harga != 0
 
 READ and WRITE total = jumlah_barang * harga
+
+PRINT total
