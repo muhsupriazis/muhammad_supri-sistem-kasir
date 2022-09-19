@@ -1,0 +1,4 @@
+1. Inisialisasi variabel nama_barang dan jumlah_barang
+2. Menentukan harga dari nama_barang yang telah diinput
+3. Menentukan total pembayaran dari harga dan jumlah_barang
+4. Menampilkan total pembayaran
